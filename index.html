@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AM Studios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to AM Studios!</h1>
+        <nav>
+            <ul>
+                <li><a href="#indie-game">RPG Platformer</a></li>
+                <li><a href="#server-info">Server Info</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section id="indie-game">
+        <h2>🕹️ RPG Platformer — Project Overview</h2>
+        <p><strong>AM Studios</strong> is developing a new <strong>2D RPG platformer</strong> built entirely from scratch using <strong>Python</strong> and <strong>Pygame</strong>. The game combines fast-paced combat, enemy AI, and player progression into a smooth and dynamic gameplay experience.</p>
+
+        <p>The project is currently in active development and already features movement, combat, weapon stats, animations, inventory management, equipment, and multiple enemy behaviors. The goal is to create an expandable RPG platformer with deep mechanics and clean modular code.</p>
+
+        <ul>
+            <li>⚔️ Combat system with melee and ranged weapons</li>
+            <li>🧠 Enemy AI: patrol, detection, attack behavior</li>
+            <li>🎒 Inventory and equipment system with stats</li>
+            <li>🌄 Pixel art visuals and animations</li>
+            <li>🏗️ Modular code structure for easy expansion</li>
+            <li>🔧 Frequent updates and new features during development</li>
+        </ul>
+    </section>
+
+
+
+    <section id="server-info">
+        <h2>🖥️ Server Information</h2>
+        <p>Welcome to <strong>AM Servers</strong> — a collection of custom-crafted Minecraft worlds designed for creativity, challenge, and community. Our servers are online <strong>24/7</strong> and available for both <strong>Java</strong> and <strong>Bedrock</strong> players.</p>
+        <p>Choose from a range of gameplay experiences, from modded adventures and roleplay-driven worlds to classic survival or creative building modes. Whether you're exploring solo or with friends, there's always something new to discover.</p>
+        <ul>
+            <li>🕹️ Multiple server types: Survival, Creative, Hardcore, Skyblock</li>
+            <li>🌐 Cross-platform support: Java & Bedrock</li>
+            <li>🔁 Regularly updated content and seasonal worlds</li>
+            <li>📩 Simple access system with fast support</li>
+        </ul>
+    </section>
+    
+
+    <section id="features">
+        <h2>🌟 Features</h2>
+        <ul>
+            <li>📖 Unique story-driven servers and custom adventures</li>
+            <li>🎮 Multiple game modes: Survival, Creative, Hardcore, Skyblock, OneBlock</li>
+            <li>🖥️ Java & Bedrock support for cross-platform play</li>
+            <li>🛠️ Custom-made datapacks, maps, and gameplay mechanics</li>
+            <li>🎭 Roleplay and lore-based experiences with evolving storylines</li>
+            <li>🎉 Seasonal events and limited-time challenges</li>
+            <li>🔒 Exclusive access to private or community-driven servers</li>
+            <li>💰 Player economy, trading systems, and market zones</li>
+            <li>🗳️ Community voting to influence future content</li>
+            <li>📞 Active support via WhatsApp and Discord</li>
+        </ul>
+    </section>
+    
+
+    <section id="server-list">
+        <h2>Our Available Minecraft Servers</h2>
+
+        <div class="server-box">
+            <div class="server-info">
+                <h3>Build Your Nation!</h3>
+                <p><strong>Version:</strong> Java 1.20.1</p>
+                <p><strong>Type:</strong> Custom RPG / Politics</p>
+                <p><strong>Price:</strong> €5.00</p>
+            </div>
+            <div class="server-description-container">
+                <button onclick="toggleDescription('desc1')">More Info</button>
+                <div id="desc1" class="server-description" style="display:none;">
+                    <p>Welcome to <strong>Build Your Nation!</strong> — a unique Minecraft server focused on political strategy, diplomacy, and nation-building. Players start with a small territory and must develop their state, manage resources, form alliances, and compete for influence and power.</p>
+                    
+                    <p>Features of the server include:</p>
+                    <ul>
+                        <li>🏛️ Build and manage your own nation with cities, infrastructure, and economy</li>
+                        <li>🤝 Form alliances, trade agreements, and political treaties with other players</li>
+                        <li>⚔️ Engage in wars and strategic battles if diplomacy fails</li>
+                        <li>🌍 Expand your territory and influence across the world map</li>
+                        <li>📜 Participate in political events, elections, and decision-making</li>
+                        <li>🔧 Custom plugins and mods enhancing strategy, governance, and interaction</li>
+                    </ul>
+                    
+                    <p>Whether you enjoy careful planning, diplomatic negotiations, or leading armies to victory, <strong>Build Your Nation!</strong> provides a dynamic, player-driven world where every decision shapes the future. Join now and start creating your legacy!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<script>
+function toggleDescription(id) {
+    const el = document.getElementById(id);
+    el.style.display = (el.style.display === "none") ? "block" : "none";
+}
+</script>
+
+    
+
+    <footer>
+        <p>&copy; 2025 AM Studios. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleDescription(id) {
+            var desc = document.getElementById(id);
+            if (desc.style.display === "none") {
+                desc.style.display = "block";
+            } else {
+                desc.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+</html>
